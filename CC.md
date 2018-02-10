@@ -1,5 +1,5 @@
-#PRINCIPIOS
-#PRINCIPIO I. SOCIEDAD
+# PRINCIPIOS
+# PRINCIPIO I. SOCIEDAD
 Los ingenieros en Sistemas Computacionales actuarán de forma congruente con el interés social. Particularmente, Los ingenieros en Sistemas Computacionales deberán:
 1. Aceptar la responsabilidad total de su trabajo.
 2. Aprobar sistemas de información sólo si se tiene una creencia bien fundamentada de que es
@@ -8,7 +8,7 @@ seguro, cumple las especificaciones, pasa las pruebas apropiadas y no reduce la 
 4. Cooperar en los esfuerzos para solucionar asuntos importantes de interés social causados por el sistema, su instalación, mantenimiento, soporte o documentación.
 5. Ser justo y veraz en todas las afirmaciones, particularmente las públicas, relativas al sistema o documentos asociados, métodos y herramientas.
 6. Considerar incapacidad física, distribución de recursos, desventajas económicas y otros factores que pueden reducir el acceso a los beneficios del sistema.
-#PRINCIPIO II. CLIENTE Y EMPRESARIO
+# PRINCIPIO II. CLIENTE Y EMPRESARIO
 Los ingenieros en Sistemas Computacionales actuarán de manera que se concilien lo mejores intereses de sus clientes y empresarios, congruentemente con el interés social. Particularmente, los ingenieros en Sistemas Computacionales deberán:
 1. Prestar servicios en sus áreas de competencia, siendo honestos y francos acerca de sus limitaciones en su experiencia y educación.
 2. No usar conscientemente sistemas de información que se obtienen o retienen ya sea ilegalmente o sin ética.
@@ -18,7 +18,7 @@ Los ingenieros en Sistemas Computacionales actuarán de manera que se concilien 
 6. Identificar, documentar, reunir evidencia y reportar oportunamente al cliente o al empresario si, en su opinión, un proyecto tiene probabilidades de fracasar, de ser muy costoso, de violar la ley de propiedad intelectual o ser problemático de cualquier otro modo.
 7. Identificar, documentar y reportar al cliente o empresario asuntos significativos de interés social, de los cuales se tiene conocimiento, acerca del sistema de información o documentos relacionados.
 8. No promover intereses adversos a su empresario o cliente, a menos que se comprometa un interés ético más alto; en ese caso, informar al empresario u otra autoridad apropiada del interés ético en cuestión.
-#PRINCIPIO III. PRODUCTO
+# PRINCIPIO III. PRODUCTO
 Los ingenieros en Sistemas Computacionales asegurarán que sus productos y sus modificaciones correspondientes cumplen los estándares profesionales más altos posibles. Particularmente, los ingenieros en Sistemas Computacionales deberán:
 1. Garantizar la calidad y una agenda razonable asegurando que los costos y beneficios significativos, claros y aceptados por el empresario y el cliente, y están disponibles para consideración del usuario y de la sociedad.
 2. Garantizar mediante un soporte documental, que las metas y objetivos para cualquier proyecto que se propone o en el que se trabaja sean adecuados y alcanzables.
@@ -33,7 +33,7 @@ Los ingenieros en Sistemas Computacionales asegurarán que sus productos y sus m
 11. Trabajar para desarrollar sistemas de información y documentos relacionados que respeten la privacidad de aquellos a quienes está dirigido este sistema de información.
 12. Garantizar la integridad de los datos manejados en los sistemas así como el uso de forma confidencial siendo sensible a aquellos inexactos u obsoletos.
 13. Tratar todas las formas de mantenimiento de software con el mismo profesionalismo que los desarrollos nuevos.
-#PRINCIPIO IV. JUICIO
+# PRINCIPIO IV. JUICIO
 Los ingenieros en Sistemas Computacionales mantendrán integridad e independencia en su juicio profesional al:
 1. Moderar todos los juicios técnicos por la necesidad de apoyar y mantener los valores humanos.
 2. Endosar documentos únicamente cuando han sido preparados bajo su supervisión o dentro de sus áreas de competencia y con los cuales se está de acuerdo.
@@ -41,7 +41,7 @@ Los ingenieros en Sistemas Computacionales mantendrán integridad e independenci
 4. No involucrarse en prácticas financieras fraudulentas tal como corrupción, facturación doble u otras prácticas financieras impropias.
 5. Exponer a todas las partes involucradas aquellos conflictos de interés que no puedan evitarse o evadirse razonablemente.
 6. Negarse a participar como miembro o asesor en organismos profesionales, privados o gubernamentales vinculados en asuntos relacionados con sistemas de información donde sus empresarios o clientes pudieran tener conflictos de intereses no declarados todavía.
-#PRINCIPIO V. ADMINISTRACIÓN
+# PRINCIPIO V. ADMINISTRACIÓN
 Los ingenieros en Sistemas Computacionales promoverán y se suscribirán a un enfoque ético en la administración del desarrollo y mantenimiento de sistemas de información al:
 1. Controlar la administración para cualquier proyecto en el cual trabaje, incluyendo procedimientos efectivos para promover la calidad y reducir riesgos.
 2. Utilizar los canales de información adecuados para que los ingenieros en sistemas computacionales estén informados de los estándares antes de sujetarse a ellos.
@@ -53,7 +53,7 @@ Los ingenieros en Sistemas Computacionales promoverán y se suscribirán a un en
 8. Garantizar que exista un acuerdo equitativo en lo referente a la propiedad de cualquier sistema de información, proceso, investigación, documentación u otra propiedad intelectual a la cual el ingeniero en sistemas computacionales ha contribuido.
 9. Tomar medidas prudentes en procesos legales vinculados a la violación de la política de un empresario o de este código.
 10.Actuar con un criterio ético, congruente con el trabajo desarrollado evitando ser incongruente en cada uno de los proyectos desarrollados.
-#PRINCIPIO VI. PROFESIÓN
+# PRINCIPIO VI. PROFESIÓN
 Los ingenieros en Sistemas Computacionales incrementarán la integridad y reputación de la profesión congruentemente con el interés social. Particularmente, los ingenieros en Sistemas Computacionales deberán:
 1. Apoyar el desarrollo de un ambiente organizacional favorable para actuar éticamente.
 2. Promover el conocimiento público de la ingeniería en sistemas computacionales.
@@ -77,7 +77,7 @@ compromiso.
 este código, a menos que sea imposible, contra-productivo o peligroso.
 12. Reportar las violaciones significativas de este código a las autoridades correspondientes cuando está claro que consultar con la gente involucrada en estas violaciones es imposible,
 contra-productivo o peligroso.
-#PRINCIPIO VII. COLEGAS
+# PRINCIPIO VII. COLEGAS
 Los ingenieros en sistemas computacionales apoyarán y serán justos con sus colegas. Particularmente, los ingenieros en Sistemas Computacionales cuando:
 1. Motivar a sus colegas a sujetarse a este código.
 2. Ayudar a sus colegas en el desarrollo profesional.
@@ -92,7 +92,7 @@ empresario, del cliente o el interés social puede conducir a los ingenieros en 
 computacionales, de buena fe, a cuestionar la competencia de un colega.
 8. En situaciones fuera de sus propias áreas de competencia, solicitar las opiniones de otros
 profesionales que tengan competencia en esa área.
-#PRINCIPIO VIII. PERSONAL
+# PRINCIPIO VIII. PERSONAL
 Los ingenieros en sistemas computacionales participarán toda su vida en el aprendizaje relacionado con la práctica de su profesión y promoverán un enfoque ético en la práctica de la misma, comprometiéndose a:
 1. Incrementar su conocimiento de los avances en el análisis, especificación, diseño, desarrollo, mantenimiento, pruebas del sistema de información y documentos relacionados, junto con la administración del proceso de desarrollo.
 2. Perfeccionar su habilidad para crear sistema de información segura, confiable, útil y de calidad a costos razonables y en un tiempo razonable.
