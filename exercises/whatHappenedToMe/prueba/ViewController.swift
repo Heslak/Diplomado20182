@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-     weak var outtletText: UITextField!
+    weak var outtletText: UITextField!
     @IBOutlet weak var aoutletButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
     }
 
-    func actionButton(_ sender: Any) {
+    @IBAction func actionButton(_ sender: Any) {
         outtletText.text = "You are a genius "
     }
     override func didReceiveMemoryWarning() {
