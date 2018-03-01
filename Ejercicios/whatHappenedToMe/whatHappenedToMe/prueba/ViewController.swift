@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    weak var outtletText: UITextField!
+    @IBOutlet weak var outtletText: UITextField!
     @IBOutlet weak var aoutletButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
