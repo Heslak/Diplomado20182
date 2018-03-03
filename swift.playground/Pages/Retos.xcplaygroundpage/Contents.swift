@@ -56,9 +56,6 @@ func Anagrama(comparador: String, comparado: String) -> String{
 
 print(Anagrama(comparador: "OMRO", comparado: "ROMA"))
 
-var Cond: Bool = true
-
-print("Respuesta:",Cond ? "Hola" : "Adios")
 
 
 //: [Next](@next)

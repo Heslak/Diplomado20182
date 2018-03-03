@@ -8,5 +8,11 @@
         <page name='Switch'/>
         <page name='Funciones'/>
         <page name='Retos'/>
+        <page name='Colecciones'/>
+        <page name='Diccionarios'/>
+        <page name='Optionals'/>
+        <page name='Bola 8 mágica'/>
+        <page name='Closures'/>
+        <page name='Arma'/>
     </pages>
 </playground>
