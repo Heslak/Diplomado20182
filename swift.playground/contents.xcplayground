@@ -14,5 +14,9 @@
         <page name='Bola 8 mágica'/>
         <page name='Closures'/>
         <page name='Arma'/>
+        <page name='Enums'/>
+        <page name='Structus'/>
+        <page name='Clases'/>
+        <page name='Ingenieros-Contadores'/>
     </pages>
 </playground>
