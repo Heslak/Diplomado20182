@@ -18,5 +18,8 @@
         <page name='Structus'/>
         <page name='Clases'/>
         <page name='Ingenieros-Contadores'/>
+        <page name='Empleado'/>
+        <page name='Heap-Stack'/>
+        <page name='Protocolos'/>
     </pages>
 </playground>
