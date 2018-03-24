@@ -76,9 +76,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Rqo-Ct-gUk">
+                <tapGestureRecognizer id="Afd-lY-xSy">
                     <connections>
-                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="VXb-Dx-fzU"/>
+                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="sx3-LG-8Ok"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

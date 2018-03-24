@@ -21,11 +21,22 @@ class ViewController: UIViewController {
     
     @IBAction func changeColor(_ sender: UIButton) {
         
-        
         let randomNum:Int = Int (arc4random_uniform(UInt32(6)))
         
-        //let cambio = colores.sorted({ $0.len < randomNum })
-        textLabel.textColor=UIColor(named: colores[randomNum])
+
+        let cambio = colores.sorted { (uno:String, dos:String) -> Bool in
+                uno.count%6 < randomNum
+
+        }
+        textLabel.textColor=UIColor(named: cambio[0])
+        cuteElephant.textColor=UIColor(named: cambio[1])
+        varview.backgroundColor=UIColor(named: cambio[2])
+        buttonSave.backgroundColor=UIColor(named: cambio[3])
+        buttonDelete.backgroundColor=UIColor(named: cambio[4])
+        buttonEdit.backgroundColor=UIColor(named: cambio[5])
+        buttonChangeColor.backgroundColor=UIColor(named: cambio[0])
+        
+        
     }
     
     
