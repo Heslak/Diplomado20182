@@ -32,10 +32,13 @@ class ViewController: UIViewController {
         cuteElephant.textColor=UIColor(named: cambio[1])
         varview.backgroundColor=UIColor(named: cambio[2])
         buttonSave.backgroundColor=UIColor(named: cambio[3])
+        buttonSave.tintColor=UIColor(named: cambio[4])
         buttonDelete.backgroundColor=UIColor(named: cambio[4])
+        buttonDelete.tintColor=UIColor(named: cambio[5])
         buttonEdit.backgroundColor=UIColor(named: cambio[5])
+        buttonEdit.tintColor=UIColor(named: cambio[0])
         buttonChangeColor.backgroundColor=UIColor(named: cambio[0])
-        
+        buttonChangeColor.tintColor=UIColor(named: cambio[1])
         
     }
     

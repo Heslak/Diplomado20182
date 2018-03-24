@@ -21,5 +21,11 @@
         <page name='Empleado'/>
         <page name='Heap-Stack'/>
         <page name='Protocolos'/>
+        <page name='Herencia-Protocolos'/>
+        <page name='Threads'/>
+        <page name='Potocolos como variables'/>
+        <page name='Delegate'/>
+        <page name='Singleton'/>
+        <page name='Tipos asociados a protocolos'/>
     </pages>
 </playground>
