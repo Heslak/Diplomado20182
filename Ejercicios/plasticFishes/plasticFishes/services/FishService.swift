@@ -12,7 +12,6 @@ class FishService{
     let baseURL = URL(string: "https://plasticfishes.herokuapp.com")!
     let session = URLSession.shared
     
-    
     static let shared = FishService()
     func all(success: @escaping (([Fish]) -> Void)){
         let url = baseURL.appendingPathComponent("api/fishes")
@@ -29,7 +28,7 @@ class FishService{
         task.resume()
     }
     
-    func parseFishes(_ data: Data? ,completion: @escaping (([Fish]) -> Void)) -> Void {
+    func parseFishes(_ data: Data? ,completion: @escaping (([Fish]) -> Void)){
         guard let data = data else { return }
         let decoder =  JSONDecoder()
         do{

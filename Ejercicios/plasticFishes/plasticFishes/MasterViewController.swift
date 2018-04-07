@@ -12,7 +12,8 @@ class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-
+    var countFishes = 0
+    var baseFishes = [Fish]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,13 @@ class MasterViewController: UITableViewController {
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        }
+        
+        FishService.shared.all{(dictionaryFishes) in
+            self.objects = (dictionaryFishes)
+            self.baseFishes = (dictionaryFishes)
+            self.countFishes=dictionaryFishes.count
+            self.tableView.reloadData()
         }
     }
 
@@ -39,7 +47,10 @@ class MasterViewController: UITableViewController {
 
     @objc
     func insertNewObject(_ sender: Any) {
-        print("New Fish")
+        let randomNum=arc4random_uniform(UInt32(countFishes))
+        objects.insert(baseFishes[Int(randomNum)], at: 0)
+        let indexPath = IndexPath(row: 0, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
     }
 
     // MARK: - Segues
@@ -47,7 +58,7 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let object = objects[indexPath.row] as! NSDate
+                let object = objects[indexPath.row] as! Fish
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
@@ -69,8 +80,8 @@ class MasterViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
-        let object = objects[indexPath.row] as! NSDate
-        cell.textLabel!.text = object.description
+        let object = objects[indexPath.row] as! Fish
+        cell.textLabel!.text = object.name
         return cell
     }
 

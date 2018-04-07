@@ -28,5 +28,7 @@
         <page name='Singleton'/>
         <page name='Tipos asociados a protocolos'/>
         <page name='Clousures Hilos'/>
+        <page name='Genericos'/>
+        <page name='Sobreescritura'/>
     </pages>
 </playground>
