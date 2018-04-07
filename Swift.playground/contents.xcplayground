@@ -27,5 +27,6 @@
         <page name='Delegate'/>
         <page name='Singleton'/>
         <page name='Tipos asociados a protocolos'/>
+        <page name='Clousures Hilos'/>
     </pages>
 </playground>
