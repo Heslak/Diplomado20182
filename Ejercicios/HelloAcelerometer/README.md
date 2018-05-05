@@ -1,0 +1,2 @@
+# HelloAcelerometer
+Acelerometer example
