@@ -145,12 +145,24 @@ class ViewController: UIViewController {
                 if user != nil {
                     print("Se creo el usuario")
                     let values = ["name": email]
-                    self.ref.updateChildValues(values, withCompletionBlock: { (error, ref) in
+                    
+                    guard let uid = user?.uid else {
+                        return
+                    }
+                    
+                    let userReference = self.ref.child("user").child(uid)
+                    
+                    userReference.updateChildValues(values, withCompletionBlock: { (error, ref) in
                         if error != nil {
                             print("Error al insertar datos")
                             return
                         }
                         print("Dato guardado en la DB",self)
+                        
+                        let login = LoginViewController()
+                       // self.present(login,animated: true, completion: nil)
+                        
+                        self.navigationController?.pushViewController(login, animated: true)
                     })
                 }else{
                     if let error = error?.localizedDescription{
