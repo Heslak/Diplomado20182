@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         let group = CAAnimationGroup()
         group.animations = [spring,revert]
         group.duration = 3
-        self.view.layer.add(group,forKey: "springAndReverse")
+        //self.view.layer.add(group,forKey: "springAndReverse")
         //self.view.layer.add(revert, forKey: "revert.spring.x")
 
         
