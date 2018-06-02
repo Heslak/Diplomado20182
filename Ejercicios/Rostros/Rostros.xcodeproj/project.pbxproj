@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6DB74E420C2E360000EB2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB74E320C2E360000EB2D0 /* AppDelegate.swift */; };
+		F6DB74E620C2E360000EB2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB74E520C2E360000EB2D0 /* ViewController.swift */; };
+		F6DB74E920C2E360000EB2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DB74E720C2E360000EB2D0 /* Main.storyboard */; };
+		F6DB74EB20C2E361000EB2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB74EA20C2E361000EB2D0 /* Assets.xcassets */; };
+		F6DB74EE20C2E361000EB2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DB74EC20C2E361000EB2D0 /* LaunchScreen.storyboard */; };
+		F6DB74F920C2E361000EB2D0 /* RostrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB74F820C2E361000EB2D0 /* RostrosTests.swift */; };
+		F6DB750420C2E361000EB2D0 /* RostrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB750320C2E361000EB2D0 /* RostrosUITests.swift */; };
+		F6DB751220C2EEC2000EB2D0 /* DetectFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB751120C2EEC2000EB2D0 /* DetectFaceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6DB74F520C2E361000EB2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DB74D820C2E360000EB2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DB74DF20C2E360000EB2D0;
+			remoteInfo = Rostros;
+		};
+		F6DB750020C2E361000EB2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DB74D820C2E360000EB2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DB74DF20C2E360000EB2D0;
+			remoteInfo = Rostros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6DB74E020C2E360000EB2D0 /* Rostros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rostros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB74E320C2E360000EB2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DB74E520C2E360000EB2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DB74E820C2E360000EB2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6DB74EA20C2E361000EB2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6DB74ED20C2E361000EB2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6DB74EF20C2E361000EB2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DB74F420C2E361000EB2D0 /* RostrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RostrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB74F820C2E361000EB2D0 /* RostrosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostrosTests.swift; sourceTree = "<group>"; };
+		F6DB74FA20C2E361000EB2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DB74FF20C2E361000EB2D0 /* RostrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RostrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB750320C2E361000EB2D0 /* RostrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RostrosUITests.swift; sourceTree = "<group>"; };
+		F6DB750520C2E361000EB2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DB751120C2EEC2000EB2D0 /* DetectFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectFaceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DB74DD20C2E360000EB2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74F120C2E361000EB2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74FC20C2E361000EB2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6DB74D720C2E360000EB2D0 = {
+			isa = PBXGroup;
+			children = (
+				F6DB74E220C2E360000EB2D0 /* Rostros */,
+				F6DB74F720C2E361000EB2D0 /* RostrosTests */,
+				F6DB750220C2E361000EB2D0 /* RostrosUITests */,
+				F6DB74E120C2E360000EB2D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DB74E120C2E360000EB2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB74E020C2E360000EB2D0 /* Rostros.app */,
+				F6DB74F420C2E361000EB2D0 /* RostrosTests.xctest */,
+				F6DB74FF20C2E361000EB2D0 /* RostrosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DB74E220C2E360000EB2D0 /* Rostros */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB74E320C2E360000EB2D0 /* AppDelegate.swift */,
+				F6DB74E520C2E360000EB2D0 /* ViewController.swift */,
+				F6DB74E720C2E360000EB2D0 /* Main.storyboard */,
+				F6DB74EA20C2E361000EB2D0 /* Assets.xcassets */,
+				F6DB74EC20C2E361000EB2D0 /* LaunchScreen.storyboard */,
+				F6DB74EF20C2E361000EB2D0 /* Info.plist */,
+				F6DB751120C2EEC2000EB2D0 /* DetectFaceViewController.swift */,
+			);
+			path = Rostros;
+			sourceTree = "<group>";
+		};
+		F6DB74F720C2E361000EB2D0 /* RostrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB74F820C2E361000EB2D0 /* RostrosTests.swift */,
+				F6DB74FA20C2E361000EB2D0 /* Info.plist */,
+			);
+			path = RostrosTests;
+			sourceTree = "<group>";
+		};
+		F6DB750220C2E361000EB2D0 /* RostrosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB750320C2E361000EB2D0 /* RostrosUITests.swift */,
+				F6DB750520C2E361000EB2D0 /* Info.plist */,
+			);
+			path = RostrosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DB74DF20C2E360000EB2D0 /* Rostros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB750820C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "Rostros" */;
+			buildPhases = (
+				F6DB74DC20C2E360000EB2D0 /* Sources */,
+				F6DB74DD20C2E360000EB2D0 /* Frameworks */,
+				F6DB74DE20C2E360000EB2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rostros;
+			productName = Rostros;
+			productReference = F6DB74E020C2E360000EB2D0 /* Rostros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6DB74F320C2E361000EB2D0 /* RostrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB750B20C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "RostrosTests" */;
+			buildPhases = (
+				F6DB74F020C2E361000EB2D0 /* Sources */,
+				F6DB74F120C2E361000EB2D0 /* Frameworks */,
+				F6DB74F220C2E361000EB2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DB74F620C2E361000EB2D0 /* PBXTargetDependency */,
+			);
+			name = RostrosTests;
+			productName = RostrosTests;
+			productReference = F6DB74F420C2E361000EB2D0 /* RostrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6DB74FE20C2E361000EB2D0 /* RostrosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB750E20C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "RostrosUITests" */;
+			buildPhases = (
+				F6DB74FB20C2E361000EB2D0 /* Sources */,
+				F6DB74FC20C2E361000EB2D0 /* Frameworks */,
+				F6DB74FD20C2E361000EB2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DB750120C2E361000EB2D0 /* PBXTargetDependency */,
+			);
+			name = RostrosUITests;
+			productName = RostrosUITests;
+			productReference = F6DB74FF20C2E361000EB2D0 /* RostrosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DB74D820C2E360000EB2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SEEDVI;
+				TargetAttributes = {
+					F6DB74DF20C2E360000EB2D0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					F6DB74F320C2E361000EB2D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F6DB74DF20C2E360000EB2D0;
+					};
+					F6DB74FE20C2E361000EB2D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F6DB74DF20C2E360000EB2D0;
+					};
+				};
+			};
+			buildConfigurationList = F6DB74DB20C2E360000EB2D0 /* Build configuration list for PBXProject "Rostros" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DB74D720C2E360000EB2D0;
+			productRefGroup = F6DB74E120C2E360000EB2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DB74DF20C2E360000EB2D0 /* Rostros */,
+				F6DB74F320C2E361000EB2D0 /* RostrosTests */,
+				F6DB74FE20C2E361000EB2D0 /* RostrosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DB74DE20C2E360000EB2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB74EE20C2E361000EB2D0 /* LaunchScreen.storyboard in Resources */,
+				F6DB74EB20C2E361000EB2D0 /* Assets.xcassets in Resources */,
+				F6DB74E920C2E360000EB2D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74F220C2E361000EB2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74FD20C2E361000EB2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DB74DC20C2E360000EB2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB74E620C2E360000EB2D0 /* ViewController.swift in Sources */,
+				F6DB74E420C2E360000EB2D0 /* AppDelegate.swift in Sources */,
+				F6DB751220C2EEC2000EB2D0 /* DetectFaceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74F020C2E361000EB2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB74F920C2E361000EB2D0 /* RostrosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB74FB20C2E361000EB2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB750420C2E361000EB2D0 /* RostrosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6DB74F620C2E361000EB2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DB74DF20C2E360000EB2D0 /* Rostros */;
+			targetProxy = F6DB74F520C2E361000EB2D0 /* PBXContainerItemProxy */;
+		};
+		F6DB750120C2E361000EB2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DB74DF20C2E360000EB2D0 /* Rostros */;
+			targetProxy = F6DB750020C2E361000EB2D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6DB74E720C2E360000EB2D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DB74E820C2E360000EB2D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6DB74EC20C2E361000EB2D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DB74ED20C2E361000EB2D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DB750620C2E361000EB2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6DB750720C2E361000EB2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DB750920C2E361000EB2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rostros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.Rostros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6DB750A20C2E361000EB2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rostros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.Rostros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6DB750C20C2E361000EB2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RostrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.RostrosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rostros.app/Rostros";
+			};
+			name = Debug;
+		};
+		F6DB750D20C2E361000EB2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RostrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.RostrosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rostros.app/Rostros";
+			};
+			name = Release;
+		};
+		F6DB750F20C2E361000EB2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RostrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.RostrosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rostros;
+			};
+			name = Debug;
+		};
+		F6DB751020C2E361000EB2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RostrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seedvi.RostrosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rostros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DB74DB20C2E360000EB2D0 /* Build configuration list for PBXProject "Rostros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB750620C2E361000EB2D0 /* Debug */,
+				F6DB750720C2E361000EB2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DB750820C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "Rostros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB750920C2E361000EB2D0 /* Debug */,
+				F6DB750A20C2E361000EB2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DB750B20C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "RostrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB750C20C2E361000EB2D0 /* Debug */,
+				F6DB750D20C2E361000EB2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DB750E20C2E361000EB2D0 /* Build configuration list for PBXNativeTarget "RostrosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB750F20C2E361000EB2D0 /* Debug */,
+				F6DB751020C2E361000EB2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DB74D820C2E360000EB2D0 /* Project object */;
+}
