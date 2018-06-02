@@ -31,5 +31,6 @@
         <page name='Genericos'/>
         <page name='Sobreescritura'/>
         <page name='File Manager'/>
+        <page name='Patrones'/>
     </pages>
 </playground>
